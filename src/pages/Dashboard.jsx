@@ -167,6 +167,7 @@ const Dashboard = () => {
       })
       .finally(() => setLoadingWallets(false));
 
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     fetchCrypto();
   }, []);
 
