@@ -55,14 +55,14 @@ const MENUS = {
 		cols: [
 			[
 				{ icon: <BuySellIcon />,    title: 'Buy and sell',     desc: 'Buy, sell, and use crypto',                     href: '#' },
-				   { icon: <AppIcon />,        title: 'Base App',         desc: 'Post, earn, trade, and chat, all in one place', href: 'https://join.base.app/' },
-				   { icon: <OneIcon />,        title: 'Crypto App One',     desc: 'Get zero trading fees and more',                href: 'https://coinbase.com/one?referrer=logged_out' },
+				   { icon: <AppIcon />,        title: 'Base App',         desc: 'Post, earn, trade, and chat, all in one place', href: '#' },
+				   { icon: <OneIcon />,        title: 'Crypto App One',     desc: 'Get zero trading fees and more',                href: '#' },
 				{ icon: <DiamondIcon />,    title: 'Private Client',   desc: 'For trusts, family offices, UHNWIs',            href: '#' },
 				{ icon: <ChainIcon />,      title: 'Onchain',          desc: 'Dive into the world of onchain apps',           href: '#' },
-				   { icon: <LearnIcon />,      title: 'Learn',            desc: 'Crypto education and resources',                href: 'https://www.coinbase.com/learn' },
+				   { icon: <LearnIcon />,      title: 'Learn',            desc: 'Crypto education and resources',                href: '#' },
 			],
 			[
-				   { icon: <AdvancedIcon />,   title: 'Advanced',         desc: 'Professional-grade trading tools',              href: 'https://www.coinbase.com/advanced-trade' },
+				   { icon: <AdvancedIcon />,   title: 'Advanced',         desc: 'Professional-grade trading tools',              href: '#' },
 				{ icon: <EarnIcon />,       title: 'Earn',             desc: 'Stake your crypto and earn rewards',            href: '#' },
 				{ icon: <WealthIcon />,     title: 'Crypto Wealth',  desc: 'Institutional-grade services for UHNW',         href: '#' },
 				{ icon: <CreditCardIcon />, title: 'Credit Card',      desc: 'Earn up to 4% bitcoin back',                    href: '#' },
@@ -72,7 +72,7 @@ const MENUS = {
 		featured: {
 			image: <img src="https://static-assets.coinbase.com/marketing/2025-q4-event/navigation-upsell.png" alt="System Update 2025" className="w-full h-full object-cover" />,
 			title: 'System Update 2025',
-			description: 'The next chapter of Coinbase. Live on X 12/17.',
+			description: 'The next chapter of our platform. Live on X 12/17.',
 			linkText: 'Learn more',
 			href: '#',
 		},
@@ -82,7 +82,7 @@ const MENUS = {
 		cols: [
 			[
 				{ icon: <BusinessIcon />,  title: 'Business',        desc: 'Crypto trading and payments for startups and SMBs',          href: '#' },
-				{ icon: <ListingsIcon />,  title: 'Asset Listings',  desc: 'List your asset on Coinbase',                                 href: '#' },
+				{ icon: <ListingsIcon />,  title: 'Asset Listings',  desc: 'List your asset on our platform',                                 href: '#' },
 			],
 			[
 				{ icon: <PaymentsIcon />,  title: 'Payments',        desc: 'The stablecoin payments stack for commerce platforms',        href: '#' },
@@ -136,7 +136,7 @@ const MENUS = {
 					{ icon: <EyeIcon />,      title: 'Payments', desc: 'Fast and global stablecoin payments with a single integration',         href: '#' },
 					{ icon: <ChartBarIcon />, title: 'Trading',  desc: 'Launch crypto trading and custody for your users',                       href: '#' },
 					{ icon: <WalletIcon />,   title: 'Wallets',  desc: 'Deploy customizable and scalable wallets for your business',             href: '#' },
-					{ icon: <EarnIcon />,     title: 'Stablecoins', desc: 'Access USDC and Platform Custom Stablecoins',                        href: '#' },
+					{ icon: <EarnIcon />,     desc: 'Access USDC and Platform Custom Stablecoins',                        href: '#' },
 				],
 			},
 			{
