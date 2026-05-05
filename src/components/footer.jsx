@@ -159,16 +159,16 @@ const SOCIALS = [
 
 /* ── Sub-components ── */
 const FooterSection = ({ title, links }) => (
-	<div className="flex flex-col gap-3">
-		<span className="text-[0.875rem] leading-5 font-semibold text-gray-100">{title}</span>
-		<div className="flex flex-col gap-2">
+	<div className="flex flex-col gap-4">
+		<span className="text-[1rem] leading-6 font-semibold text-gray-100">{title}</span>
+		<div className="flex flex-col gap-2.5">
 			{links.map((link) => (
 				<a
 					key={link.label}
 					href={link.href}
 					target={link.href.startsWith('http') ? '_blank' : undefined}
 					rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-					className="text-[0.8125rem] leading-5 text-gray-60 hover:text-gray-100 transition-colors duration-150"
+					className="text-[0.875rem] leading-6 text-gray-60 hover:text-gray-100 transition-colors duration-150"
 				>
 					{link.label}
 				</a>
@@ -177,7 +177,7 @@ const FooterSection = ({ title, links }) => (
 	</div>
 );
 
-const CoinbaseLogo = ({ height = 60 }) => (
+const FooterLogo = ({ height = 32 }) => (
 	<Logo height={height} />
 );
 
@@ -193,14 +193,14 @@ const Footer = () => {
 
 				{/* Logo — mobile only */}
 				<div className="mb-8 lg:hidden">
-					<CoinbaseLogo />
+					<FooterLogo />
 				</div>
 
 				{/* Main columns row */}
 				<div className="flex flex-col lg:flex-row gap-10">
 					{/* Logo column — desktop only */}
-					<div className="hidden lg:flex flex-col shrink-0 w-[72px] pt-0.5">
-						<CoinbaseLogo />
+					<div className="hidden lg:flex flex-col shrink-0 pt-0.5">
+						<FooterLogo />
 					</div>
 
 					{/* 4 content columns */}
