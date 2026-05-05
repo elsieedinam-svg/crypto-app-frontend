@@ -7,7 +7,7 @@ const Logo = ({ height = 28, className = '', iconOnly = false }) => (
 		</div>
 		{!iconOnly && (
 			<span className="text-xl font-bold text-gray-100 tracking-tight whitespace-nowrap" style={{ fontSize: `${height * 0.75}px` }}>
-				Crypto App
+				Easy Crypto
 			</span>
 		)}
 	</div>

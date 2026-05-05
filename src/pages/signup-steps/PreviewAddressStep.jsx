@@ -4,7 +4,7 @@ function PreviewAddressStep({ file, onConfirm, onReupload }) {
       <div className="w-full max-w-lg mx-auto">
         <h1 className="text-3xl font-bold text-white mb-2">Verify your address</h1>
         <h2 className="text-lg font-semibold text-white mb-4">Is this document easy to read?</h2>
-        <p className="text-[#8A919E] mb-6">Make sure that the address listed on your document and the address you entered on Crypto App match exactly.</p>
+        <p className="text-[#8A919E] mb-6">Make sure that the address listed on your document and the address you entered on Easy Crypto match exactly.</p>
         <div className="flex flex-col items-center mb-8">
           {file && file.type.startsWith('image') ? (
             <img src={URL.createObjectURL(file)} alt="Uploaded document" className="max-w-full max-h-[400px] rounded-xl border border-[#23262B] mb-6" />

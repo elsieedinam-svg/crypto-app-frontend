@@ -98,7 +98,7 @@ const SignIn = () => {
 
 					{step === 'email' && (
 						<form onSubmit={handleEmailContinue}>
-							<h1 className="text-[1.75rem] font-bold text-white mb-2">Sign in to Crypto App</h1>
+							<h1 className="text-[1.75rem] font-bold text-white mb-2">Sign in to Easy Crypto</h1>
 							<p className="text-[#8A919E] text-sm mb-6">Demo app – do not use your real password</p>
 
 							{/* Email field */}
@@ -162,7 +162,7 @@ const SignIn = () => {
 
 					{step === 'password' && (
 						<form onSubmit={handlePasswordContinue}>
-							<h1 className="text-[1.75rem] font-bold text-white mb-2">Sign in to Crypto App</h1>
+							<h1 className="text-[1.75rem] font-bold text-white mb-2">Sign in to Easy Crypto</h1>
 							<p className="text-[#8A919E] text-sm mb-6">Demo app – do not use your real password</p>
 
 							{/* Email display pill */}

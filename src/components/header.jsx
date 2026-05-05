@@ -56,7 +56,7 @@ const MENUS = {
 			[
 				{ icon: <BuySellIcon />,    title: 'Buy and sell',     desc: 'Buy, sell, and use crypto',                     href: '#' },
 				   { icon: <AppIcon />,        title: 'Base App',         desc: 'Post, earn, trade, and chat, all in one place', href: '#' },
-				   { icon: <OneIcon />,        title: 'Crypto App One',     desc: 'Get zero trading fees and more',                href: '#' },
+				   { icon: <OneIcon />,        title: 'Easy Crypto One',     desc: 'Get zero trading fees and more',                href: '#' },
 				{ icon: <DiamondIcon />,    title: 'Private Client',   desc: 'For trusts, family offices, UHNWIs',            href: '#' },
 				{ icon: <ChainIcon />,      title: 'Onchain',          desc: 'Dive into the world of onchain apps',           href: '#' },
 				   { icon: <LearnIcon />,      title: 'Learn',            desc: 'Crypto education and resources',                href: '#' },
@@ -172,7 +172,7 @@ const MENUS = {
 		],
 		featured: {
 			image: <img src="https://static-assets.coinbase.com/growth/acquisition/global-nav/upsell/company_upsell.png" alt="About the App" className="w-full h-full object-cover" />,
-			title: 'Learn all about Crypto App:',
+			title: 'Learn all about Easy Crypto:',
 			description: "We're building the open financial system.",
 			linkText: 'Create your account',
 			href: '#',

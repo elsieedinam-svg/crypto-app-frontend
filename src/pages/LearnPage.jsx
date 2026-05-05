@@ -81,7 +81,7 @@ export default function LearnPage() {
 	];
 
 	const allThingsWallet = [
-		{ label: "Wallet", title: "What’s the difference between Crypto App and Crypto Wallet?", description: "And how can a wallet help me access NFTs or DeFi? Your self-custody wallet questions, answered", image: "https://images.ctfassets.net/q5ulk4bp65r7/3mfq3iIdYW3CDfWoh5vm9j/e79252903418650aa29f66ee313ef44e/How_to_Coinbase_Wallet_Op1-B.png?w=768&fm=png", href: "#" },
+		{ label: "Wallet", title: "What’s the difference between Easy Crypto and Crypto Wallet?", description: "And how can a wallet help me access NFTs or DeFi? Your self-custody wallet questions, answered", image: "https://images.ctfassets.net/q5ulk4bp65r7/3mfq3iIdYW3CDfWoh5vm9j/e79252903418650aa29f66ee313ef44e/How_to_Coinbase_Wallet_Op1-B.png?w=768&fm=png", href: "#" },
 		{ label: "Video Tutorial", title: "How to set up a crypto wallet", description: "Learn how to setup and get started with a crypto wallet.", image: "https://images.ctfassets.net/q5ulk4bp65r7/5wgZmGhDLxwejh5MDDxRAn/aa73d7119d45e95ab417b9ae5e5e8f56/Video_02.png?w=768&fm=png", href: "#" },
 		{ label: "Getting Started", title: "How to add crypto to your Crypto Wallet", description: "A quick guide on how to add crypto to your self-custody wallet.", image: "https://images.ctfassets.net/q5ulk4bp65r7/3G50jPNvtkBsSz7we9TaxK/a50e3a2103bad2af0355644349e57476/how_to_fund_coinbase_wallet.png?w=768&fm=png", href: "#" },
 		{ label: "Wallet", title: "How to send or receive crypto using Crypto Wallet", description: "Crypto Wallet helps you unlock one of the most significant features of crypto: the ability to send or receive peer-to-peer transfers without any financial intermediaries.", image: "https://images.ctfassets.net/q5ulk4bp65r7/4ktmMla57tgU3ZYleBOlLm/71ef298196ffcf1d1eb6d2b43abe49d4/Learn_Illustration_How_to_Send_Crypto.png?w=768&fm=png", href: "#" }
@@ -263,7 +263,7 @@ export default function LearnPage() {
 					<div className="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-4">
 						<div>
 							<h2 className="text-3xl font-display font-medium mb-3 text-black">All Things Wallet</h2>
-							<p className="text-gray-60 text-lg">Earn yield, dive into crypto apps, control your holdings, and much more</p>
+							<p className="text-gray-60 text-lg">Earn yield, dive into Easy Cryptos, control your holdings, and much more</p>
 						</div>
 						<a href="#" className="font-semibold text-blue-60 hover:underline shrink-0">See more ›</a>
 					</div>

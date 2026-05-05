@@ -20,7 +20,7 @@ const StepEmail = ({ email, setEmail, name, setName, password, setPassword, onNe
     <form onSubmit={handleSubmit}>
       <h1 className="text-[1.75rem] font-bold text-white mb-2">Create your account</h1>
       <p className="text-[0.9375rem] text-[#8A919E] mb-6 leading-6">
-        Access all that Crypto App has to offer with a single account.<br/>
+        Access all that Easy Crypto has to offer with a single account.<br/>
         <span className="text-sm font-semibold text-blue-60">Demo app – do not use your real password</span>
       </p>
       <DarkInput label="Full Name" type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Your full name" />

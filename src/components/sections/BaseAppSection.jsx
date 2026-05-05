@@ -13,7 +13,7 @@ const BaseAppSection = () => {
 					<div className="w-full md:w-1/2">
 						<Badge className="mb-6">
 							<Logo height={18} iconOnly={true} className="inline-block" />
-							Crypto App
+							Easy Crypto
 						</Badge>
 						<h2 className="text-display-3 md:text-display-2 text-gray-100 mb-4">
 							Countless ways to earn crypto with the Base App.

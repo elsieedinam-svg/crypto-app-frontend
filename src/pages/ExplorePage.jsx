@@ -270,7 +270,7 @@ const TopMoverCard = ({ coin, currLabel }) => (
 );
 
 /* ═══════════════════════════════════════════════
-	NEW ON CRYPTO APP CARD
+	NEW ON Easy Crypto CARD
 	═══════════════════════════════════════════════ */
 const NewCoinCard = ({ coin }) => (
 	<div className="flex flex-col items-center bg-white rounded-xl border border-gray-10 p-4 min-w-[140px] hover:shadow-elevation-1 transition-shadow duration-200 cursor-pointer">
@@ -354,7 +354,7 @@ const TableLineChart = ({ changePct, coinId, symbol }) => {
 	);
 };
 
-/* Crypto App-style market stat chart with line + dotted fill */
+/* Easy Crypto-style market stat chart with line + dotted fill */
 const StatChart = ({ changePct, statId }) => {
 	const { points, W, H } = generateSparklineData(changePct, statId, 240, 60);
 	const isNeg = (changePct ?? 0) < 0;
@@ -620,7 +620,7 @@ const ExplorePage = () => {
 										Explore crypto
 									</h1>
 									<p className="text-body text-gray-60 mt-1 flex items-center gap-1">
-										Crypto App 50 Index is down <span className="text-red-60">↘ 1.23%</span> (24hrs)
+										Easy Crypto 50 Index is down <span className="text-red-60">↘ 1.23%</span> (24hrs)
 										<svg className="w-4 h-4 text-gray-40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" /></svg>
 									</p>
 								</div>
@@ -879,7 +879,7 @@ const ExplorePage = () => {
 								<div className="py-8 md:py-12 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-8">
 									<div className="flex-1">
 										<h2 className="text-3xl text-white mb-6 max-w-lg">
-											Create a Crypto App account to trade crypto. It's quick, easy, and secure.
+											Create a Easy Crypto account to trade crypto. It's quick, easy, and secure.
 										</h2>
 										<Link to="/signup">
 											<Button variant="outline" size="lg" className="bg-white text-gray-100 border-white hover:bg-gray-5">
@@ -947,7 +947,7 @@ const ExplorePage = () => {
 							{/* New on Coinbase */}
 							<div>
 								<div className="flex items-center justify-between mb-3">
-									<h3 className="text-headline text-gray-100">New on Crypto App</h3>
+									<h3 className="text-headline text-gray-100">New on Easy Crypto</h3>
 									<div className="flex gap-1">
 										<button className="w-7 h-7 rounded-full border border-gray-20 flex items-center justify-center text-gray-60 hover:bg-gray-5 transition-colors"><ChevronLeft /></button>
 										<button className="w-7 h-7 rounded-full border border-gray-20 flex items-center justify-center text-gray-60 hover:bg-gray-5 transition-colors"><ChevronRight /></button>

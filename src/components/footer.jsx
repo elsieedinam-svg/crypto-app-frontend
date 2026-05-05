@@ -54,7 +54,7 @@ const COLUMNS = [
 					{ label: 'Buy & sell',       href: '#' },
 					{ label: 'Earn free crypto', href: '#' },
 					{ label: 'Base App',         href: '#' },
-					{ label: 'Crypto App One',     href: '#' },
+					{ label: 'Easy Crypto One',     href: '#' },
 					{ label: 'Debit Card',       href: '#' },
 				],
 			},
@@ -223,7 +223,7 @@ const Footer = () => {
 								href={s.href}
 								target="_blank"
 								rel="noopener noreferrer"
-								title={`Crypto App ${s.label} page`}
+								title={`Easy Crypto ${s.label} page`}
 								className="opacity-100 hover:opacity-70 transition-opacity duration-150"
 							>
 								<img src={s.icon} alt={`${s.label} logo`} width={16} height={16} loading="lazy" />
@@ -239,7 +239,7 @@ const Footer = () => {
 						{/* Left: copyright + legal links */}
 						<div className="flex flex-wrap items-center gap-x-2 gap-y-1">
 							<p className="text-[0.875rem] leading-6 text-gray-100 m-0">
-								© {new Date().getFullYear()} Crypto App | Student Project
+								© {new Date().getFullYear()} Easy Crypto | Student Project
 							</p>
 							<span className="text-gray-40 text-[0.875rem]">•</span>
 							<a href="#" className="text-[0.875rem] leading-6 text-gray-60 hover:text-gray-100 transition-colors">

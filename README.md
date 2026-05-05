@@ -6,7 +6,7 @@
 
 ## 📋 Overview
 
-In this assignment, you will build a full dashboard for a [Crypto App] website using **React.js** and **Tailwind CSS**. This project will help you practice component-based architecture, client-side routing, responsive design, and modern CSS utilities.
+In this assignment, you will build a full dashboard for a [Easy Crypto] website using **React.js** and **Tailwind CSS**. This project will help you practice component-based architecture, client-side routing, responsive design, and modern CSS utilities.
 
 ---
 
